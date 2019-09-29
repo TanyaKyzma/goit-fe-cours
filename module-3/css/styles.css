@@ -1,17 +1,37 @@
-ul {
-    font-size: 0;
-}
-li {
-    display: inline-block;
-    padding: 5px;
-}
-li::first-child{
-    background-color: #f00;
-}
-a {
-    font-size: 16px;
-    display: block;
-}
-header {
-    cent
-}
+html {
+    box-sizing: border-box;
+    nav{
+        width:960px;
+        margin:0 auto;
+         
+      }
+      nav::before{
+        content:' ';
+        display: block;
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index:-1;
+      }
+      ul {
+        margin: 0;
+        padding:0;
+        list-style: none;
+        height:50px;
+      }
+      ul li{
+        float:left;
+      }
+      ul li a {
+        color:#bcb8b8;
+        display: block;
+        height: 50px;
+        padding: 0 70px;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height:50px;
+      }
+      ul li a:hover {
+        background:#19aef2
+      }
