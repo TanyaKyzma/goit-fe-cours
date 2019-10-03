@@ -1,5 +1,6 @@
 
 body {
+    margin: 0;
     font-family: 'Playfair Display', serif;
     color: #626262;
 }
@@ -14,6 +15,7 @@ margin: 0 auto;
     }
 
 .navigation-wrapper {
+    padding: 0;
     display: block;
     list-style: none;
     font-size: 0;
@@ -30,10 +32,12 @@ margin: 0 auto;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
+    color: #626262;
 }
 .navigation-item .nav:hover {
     color: #6cc2f7;
 }
+
 
 .content {
     font-size: 0;
@@ -43,7 +47,7 @@ margin: 0 auto;
     width: 100%;
     max-width: 420px;
     display: inline-block;
-    padding-bottom: 90px;
+    margin-bottom: 90px;
     margin-right: 60px;
 }
 
@@ -58,10 +62,12 @@ margin: 0 auto;
 
 .content-item p.under-picture {
     margin: 0;
+    margin-bottom: 35px;
 }
 
 .under-picture {
-    color: #b4ad9e;
+    margin: 0;
+      color: #b4ad9e;
     text-transform: uppercase;
     font-size: 14px;
     display: block;
@@ -70,10 +76,12 @@ margin: 0 auto;
 
 .content-item h2 {
     font-size: 30px;
+    margin: 0;
     margin-bottom: 40px;
 }
 
 .content-item p {
+    margin: 0;
     font-size: 14px;
     }
 
@@ -90,3 +98,4 @@ margin: 0 auto;
 }
 .load:hover {
     color: #6cc2f7;
+}
