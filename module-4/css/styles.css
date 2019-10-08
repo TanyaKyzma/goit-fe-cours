@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: "" :
+    display: block;
+    clear: both;
+}
+wrapper {
+    width: 100%;
+    max-width: 1110px;
+}
+
+}
+.Header
+
+
+.header nav-link{
+
+.sc{
+
+}
+.products heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.products heading::after {
+    content: '';
+    display: block;
+    width: 165px;
+    height: 9px;
+    margin: 32px,
+
+}
+.product {
+    width: 185px;
+}
+.product icon{
+    display: block;
+    width: 100%;
+}
+.product info {
+    background color: #000;
+      
+}
+.product link {
+    display: block;
+    text-decoration: none;
+    color: #fff
+}
+.product name {
+    float: r;
+}
