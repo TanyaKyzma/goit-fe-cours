@@ -86,6 +86,7 @@ body {
 
   .sc-products{
     font-size: 0; 
+    padding-bottom: 70px;
   }
 
   .sc-product {
@@ -219,7 +220,6 @@ body {
   border: none;
   outline: none;
   border-radius: 5px;
- 
 }
 
  
