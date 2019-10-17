@@ -16,10 +16,11 @@ body {
     clear: both;
 }
 .wrapper {
-    width: 1110px;
+    max-width:  1110px;
     margin: 0 auto;
-    padding: 43px 30px 47px 30px;
+    padding: 38px 0 0 0;
     box-sizing: border-box;
+    width: 100%;
     }
     
  .page-header {
@@ -212,6 +213,8 @@ body {
   text-align: center;
   font-size: 14px;
   font-family: "Roboto";
+  font-weight: 300;
+  line-height: 26px;
   color: #ffffff;
   border: none;
   outline: none;
