@@ -17,9 +17,6 @@ body {
 }
 .wrapper {
     max-width:  1110px;
-    margin: 0 auto;
-    padding: 38px 0 0 0;
-    box-sizing: border-box;
     width: 100%;
     }
     
@@ -46,7 +43,7 @@ body {
     }
     .navigation-site-list{
        font-size: 14px;
-       float: right;
+       float: left;
    }
 
   .navigation-site-link{ 
@@ -57,7 +54,7 @@ body {
     color: #0f0101;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: 33px;
+    margin-right: ;
   }
   .navigation-site-link:not (:last-child) {
     margin-right: 33px;
