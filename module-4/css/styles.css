@@ -17,10 +17,10 @@ body {
 }
 .wrapper {
     max-width:  1110px;
-    width: 100%;
+   margin: 0 auto;
     }
     
- .page-header {
+.page-header {
    margin-bottom: 110px;
  }
 .header-logo {
@@ -31,22 +31,25 @@ body {
         text-decoration: none;
         text-transform: uppercase;
     }
-   .header-logo::first-letter {
+.header-logo::first-letter {
         color:#1abc9c;
     }
-    .navigation{
+.navigation{
         float: right;
     }
 
-    .navigation-site{
+.navigation-site{
         list-style: none;
     }
-    .navigation-site-list{
+.navigation-site-list{
        font-size: 14px;
        float: left;
+       margin-right:13px ;
    }
+.navigation-site-list li:not(:last-child) {
+  margin-right: 13px;}
 
-  .navigation-site-link{ 
+.navigation-site-link{ 
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -70,6 +73,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: #515151;
+    margin-bottom: 93px;
   }
   .sc-product-text::after{
     content: "";
@@ -86,9 +90,10 @@ body {
     padding-bottom: 70px;
   }
 
-  .sc-product {
-    margin-top: 94px;
-  
+  .sc-product-list {
+   float: left;
+ 
+} 
   }
   .sc-product:nth-child(4n){
     margin-right: 30px;
@@ -115,12 +120,12 @@ body {
     height: 40px;
     background-color: #323232;
     vertical-align: middle;
-    margin: 0;
     line-height: 40px;
     font-family: "Roboto";
     font-weight: 800;
     text-transform: uppercase;
     padding-left: 10px;
+    margin:0;
   }
   .card-price {
     display: inline-block;
@@ -151,6 +156,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: #515151;
+    margin-bottom: 82px;
   }
  h2::after{
     content: "";
@@ -168,8 +174,10 @@ body {
   .blog-list{
     width: 350px;
     float: left;
-    padding: 0 15px 0 15px;
+    margin-right: 30px;
   }
+  .blog-list:last-of-type {
+    margin-right: 0px;}
   
   .blog-photo {
     width: 350px;
