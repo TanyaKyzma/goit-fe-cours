@@ -54,7 +54,7 @@ body {
     color: #0f0101;
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: ;
+    margin-right:33px ;
   }
   .navigation-site-link:not (:last-child) {
     margin-right: 33px;
@@ -63,7 +63,7 @@ body {
  .navigation-site a:hover{
     color:#1abc9c;
   }
-  h1{
+  .sc-product-text{
     font-weight: 700;
     font-size: 48px;
     text-align: center;
@@ -71,7 +71,7 @@ body {
     text-align: center;
     color: #515151;
   }
-  h1::after{
+  .sc-product-text::after{
     content: "";
     display: block;
      width: 165px;
@@ -87,14 +87,15 @@ body {
   }
 
   .sc-product {
-    margin: 15px 30px 15px 0px;
-    float: left;
     margin-top: 94px;
+  
   }
   .sc-product:nth-child(4n){
     margin-right: 30px;
   }
-  
+  .sc-product-item {
+    float: left;
+  }
   
   .sc-product-photo {
     width: 255px;
@@ -144,7 +145,6 @@ body {
   }
 
   h2{
-
     font-weight: 700;
     font-size: 48px;
     text-align: center;
@@ -152,7 +152,7 @@ body {
     text-align: center;
     color: #515151;
   }
-  h2::after{
+ h2::after{
     content: "";
     display: block;
     width: 165px;
