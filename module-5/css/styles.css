@@ -95,3 +95,35 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+
+
+
+
+
+
+
+
+
+.footer {
+  max-width: 1170px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.footer-wrapper {
+  background-color: #323232;
+}
+
+.info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 90px;
+}
+
+.company {
+  color: #1abc9c;
+}
