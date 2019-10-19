@@ -16,12 +16,9 @@ body {
     clear: both;
 }
 .wrapper {
-    max-width:  1600px;
-    margin: 0 auto;
-    padding: 38px 0 0 0;
-    box-sizing: border-box;
-    width: 100%;
-    }
+    max-width:  1170px;
+    margin: 0 auto;}
+   
     
 .page-header {
    padding: 43px 245px 38px 245px;
@@ -68,7 +65,7 @@ body {
   }
 .slider-conteiner {
     position: relative;
-    width: 1600px;
+    width: 1170px;
     height: 600px;
     margin: auto;
   }
@@ -84,11 +81,11 @@ body {
   }
 .slider-ctrl-prev {
     left: 200px;
-    transform: translateY(100%);
+    
   }
 .slider-ctrl-next {
     right: 200px;
-    transform: translateY(-50%);   
+    
   }
 .slides-item{
   position: relative;
