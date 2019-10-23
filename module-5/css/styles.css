@@ -1,11 +1,12 @@
 html{
-    box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding:0;
+  box-sizing: border-box;
 }
 
+*,
+*::before
+*::after {
+  box-sizing: inherit;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -17,12 +18,14 @@ body {
 }
 .wrapper {
     max-width:  1170px;
-    margin: 0 auto;}
-   
+    margin: 0 auto;
+  } 
     
 .page-header {
    padding: 43px 245px 38px 245px;
+
  }
+
 .header-logo {
     padding: 5px;
     float: left;
@@ -30,10 +33,13 @@ body {
     color: #555252;
     text-decoration: none;
     text-transform: uppercase;
+
     }
+
 .header-logo::first-letter {
      color:#1abc9c;
     }
+
 .navigation{
     float: right;
     }
@@ -41,6 +47,7 @@ body {
 .navigation-site{
     list-style: none;
     }
+
 .navigation-site-list{
     font-size: 14px;
     float: right;
@@ -64,10 +71,11 @@ body {
     color:#1abc9c;
   }
  
-.slider-wrp {
+.slides-img {
   background-image: url(img/slider\slider.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-repeat: no-repeat
+  background-size: cover;
+  background-position: centr;
   height: 603px;
 }
 .slider{
@@ -133,6 +141,64 @@ body {
   font-size: 24px;
   font-weight: 300; 
 }
+h2 {
+ font-weight:700;
+ font-size: 37px;
+ text-align: center;
+ text-transform: uppercase;
+ color:#515151;
+ margin-top:102px;
+}
+h2::after{
+  content: "";
+  display: block;
+  width: 165px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin:0 auto;
+  margin-top:30px;
+  } 
+  
+  .sc-collection-photo {
+    height: 282px;
+    width: 255px;
+  }
+
+  .sc-collection-info {
+    display: inline-block;
+    width: 255px;
+    height: 40px;
+  }
+
+  .card-text {
+    display: inline-block;
+    color: #ffffff;
+    width: 190px; 
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #323232;
+    vertical-align: middle;
+    line-height: 40px;
+  }
+
+  .card-price {
+    display: inline-block;
+  color: #ffffff;
+  font-size: 18px;
+  width: 55px;
+  height: 40px;
+  background-color: #8c8c8c;
+  vertical-align: middle;
+  margin: 0;
+  line-height: 40px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  }
 
 
 
