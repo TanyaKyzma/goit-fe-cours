@@ -157,50 +157,101 @@ h2::after{
   background-color: #1abc9c;
   margin:0 auto;
   margin-top:30px;
-  } 
+  }
+
+  .sc-collection {
+    font-size: 0;
+    margin-bottom: 100px;
+  }
+
   
-  .sc-collection-photo {
+  .sc-collection-list {
+    width:255px ;
     height: 282px;
+    margin: 0 ;
+   }
+ 
+   .sc-collection-wrp{
+     position: relative;
+     display:block;
+     height: 282px;
+     width: 255px;
+   }
+   
+   .sc-collection-photo {
+     height: 282px;
+     width: 255px;
+   }
+ 
+   .sc-collection-info {
+     display: inline-block;
+     width: 255px;
+     height: 40px;
+   }
+   
+   .card-text {
+     display: inline-block;
+     color: #ffffff;
+     width: 190px; 
+     height: 40px;
+     font-family: "Roboto", sans-serif;
+     font-size: 14px;
+     font-weight: 700;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #323232;
+     vertical-align: middle;
+     line-height: 40px;
+   }
+ 
+   .card-price {
+     display: inline-block;
+   color: #ffffff;
+   font-size: 18px;
+   width: 65px;
+   height: 40px;
+   background-color: #8c8c8c;
+   vertical-align: middle;
+   margin: 0;
+   line-height: 40px;
+   text-align: center;
+   font-family: "Roboto";
+   font-weight: 700;
+   }
+   
+  .sc-collection-overlay {
+    position: absolute;
+    display: block;
     width: 255px;
+    height: 282px;
+    background-color:#696c72 ;
+    opacity: 0;
+  }
+  .sc-collection-wrp:hover .sc-collection-overlay{
+      opacity: 0.549;
   }
 
-  .sc-collection-info {
-    display: inline-block;
-    width: 255px;
-    height: 40px;
+  .overlay-icon {
+    display: block;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+  }
+  .overlay-icon-heard{
+    background-image: url(/img/icon/heart.png);
+  }
+  
+  .overlay-icon-arrows {
+    background-image: url(/img/icon/arrows.png);
   }
 
-  .card-text {
-    display: inline-block;
-    color: #ffffff;
-    width: 190px; 
-    height: 40px;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #323232;
-    vertical-align: middle;
-    line-height: 40px;
+  .overlay-icon-clock {
+    background-image: url(/img/icon/clock.png);
   }
-
-  .card-price {
-    display: inline-block;
-  color: #ffffff;
-  font-size: 18px;
-  width: 55px;
-  height: 40px;
-  background-color: #8c8c8c;
-  vertical-align: middle;
-  margin: 0;
-  line-height: 40px;
-  text-align: center;
-  font-family: "Roboto";
-  font-weight: 700;
-  }
-
-
+  
+ 
 
 
 
