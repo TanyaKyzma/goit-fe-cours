@@ -148,6 +148,7 @@ h2 {
  text-transform: uppercase;
  color:#515151;
  margin-top:102px;
+ margin-bottom: 102px; 
 }
 h2::after{
   content: "";
@@ -166,9 +167,10 @@ h2::after{
 
   
   .sc-collection-list {
+    float: left;
     width:255px ;
     height: 282px;
-    margin: 0 ;
+    margin-left: 30px;
    }
  
    .sc-collection-wrp{
@@ -218,7 +220,7 @@ h2::after{
    font-family: "Roboto";
    font-weight: 700;
    }
-   
+
   .sc-collection-overlay {
     position: absolute;
     display: block;
