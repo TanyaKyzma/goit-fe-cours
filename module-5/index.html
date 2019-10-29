@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title> Module-5 </title>
 </head>
    
 <body>
-    <div class="wrapper">
-    <header class="page-header clearfix  ">
+    <header class="page-header clearfix">
         <a href="#" class="header-logo "> Mart </a>
         <nav class="navigation ">
            <ul class="navigation-site  clearfix  "> 
@@ -30,19 +30,21 @@
       
     <section class="slider-wrp">
      <div class="slider">
-        <button class="slider-ctrl slider-ctrl-prev"> <</button>
-        <button class="slider-ctrl slider-ctrl-next"> ></button>
+         <div class="conteiner">
+        <button class="slider-ctrl slider-ctrl-prev"></button>
+        <button class="slider-ctrl slider-ctrl-next"></button>
         <ul class="slides">
          <li class="slides-item">
-          <img class="slides-img" src="img/slider/slider.png" width="1170" height="603" alt="gerl">
                 <p class="slides-descr">AFFORDABLE PARIS TOURS</p>
                 <P class="slides-descr2"> City tours/tour tickets/tour guides </p>
         </li>
       </ul>
+    </div>
     </div>           
     </section>
 
         <section class="collection ">
+        <div class="wrapper-collection">
           <h2>New Collection</h2>
             <ul class="sc-collection clearfix">
              <li class="sc-collection-list clearfix">
@@ -55,10 +57,12 @@
                            </div>
 
                             <div class="sc-collection-overlay">
-                                    <span class="overlay-icon-heard"></span>
-                                    <span class="overlay-icon-arrows"></span>
-                                    <span class="overlay-icon-clock"></span>
-                                    <span class="overlay-icon-add"> add to cart</span>
+                                <ul class="overlay-item">
+                                    <li class="overlay-list"><span class="overlay-icon-heard"></span></li>
+                                    <li class="overlay-list"><span class="overlay-icon-arrows"></span></li>
+                                    <li class="overlay-list"><span class="overlay-icon-clock"></span></li>
+                                    <li class="overlay-list"><span class="overlay-icon-add"> add to cart</span></li>
+                                </ul>
                            </div>
                     </div> 
                  </li>
@@ -113,21 +117,10 @@
                                        </div>
                                 </div> 
                              </li>
-            
-        
-         
+                     </ul>
+                </div>
+          </section>  
 
-
-             </ul>
-        </section>
-
-
-
-
-
-
-
-        
     <footer class="footer-wrapper">
         <div class="footer">
             <p class="info">All Rights Reserved &copy; | Designed <span class="company">ThemenGraph</span></p>
