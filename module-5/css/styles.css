@@ -160,7 +160,7 @@ body {
   font-weight: 300; 
 }
 
-.wrapper-collection{
+.conteiner{
     width: 1110px;
     margin: 0 auto;
     background-color: #e9f0fd;
@@ -186,7 +186,7 @@ h2::after{
 
   .sc-collection {
     padding-top: 50px;
-    padding-bottom: 500px;} 
+    padding-bottom: 50px;} 
  
   .sc-collection-wrp{
     position: relative;
@@ -231,7 +231,7 @@ h2::after{
      text-align: center;
      text-transform: uppercase;
      background-color: #323232;
-     line-height: 40px;
+     line-height: 14px; 
    }
  
 .card-price {
@@ -261,10 +261,10 @@ h2::after{
     height: 263px;
     top: 0;
     left: 0;
-    background-color:#696c72 ;
+    background-color:#737373;
     opacity: 0;
     border: 10px solid rgba(255,255,255,0.9);
-    background-color: rgba(0,0,0,0.549);  
+    background-color: rgba(0,0,0,0.549);
   }
   .sc-collection-wrp:hover .sc-collection-overlay{
       opacity: 1;
@@ -272,11 +272,7 @@ h2::after{
 
   .overlay-icon {
     display: block;
-    width: 50px;
-    height: 50px;
-    border-width: 10px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid; 
+  
   }
   .overlay-icon-heard{
     width: 50px;
@@ -284,9 +280,15 @@ h2::after{
     border-width:1px;
     border-color: rgb(255, 255, 255);
     border-style: solid; 
+    border-style: none;
     background-image: url(../img/icon/heart.png);
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 4px;
+    margin-bottom: 5px;
+  }
+  .overlay-icon-heard:hover{
+    background-color: #1abc9c;
   }
   
   .overlay-icon-arrows {
@@ -295,23 +297,31 @@ h2::after{
     border-width:1px;
     border-color: rgb(255, 255, 255);
     border-style: solid; 
+    border-style: none;
     background-image: url(../img/icon/arrows.png);
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 4px;
+    margin-bottom: 5px;
+  }
+
+  .overlay-icon-arrows:hover{
+    background-color: #1abc9c;
   }
 
   .overlay-icon-clock {
     width: 50px;
     height: 50px;
-    border-width:1px;
+    border: width 5px;
     border-color: rgb(255, 255, 255);
-    border-style: solid; 
+    border-style: solid;
+    border-style: none;
     background-image: url(../img/icon/clock.png);
     background-repeat: no-repeat;
     background-position: center;
   }
-  .overlay-icon:hover{
-    background: #1abc9c;
+  .overlay-icon-clock:hover{
+    background-color: #1abc9c;
   }
 
   .overlay-icon1-add{
@@ -319,9 +329,21 @@ h2::after{
     background-repeat: no-repeat;
     background-position: center;
     border-color: rgb(255, 255, 255);
+    border-style: none;
     width: 170px;
-    height: 48px;
+    height: 50px;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    padding-top: 0px;
+    text-align: center;
   }
+
+  .icon_name {
+    float: right;
+    font-size: 14px; 
+  }
+
   .overlay-icon1-add:hover{
     background-color: #323232;
   }
