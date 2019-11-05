@@ -16,7 +16,7 @@ body {
     content:'';
     clear: both;
 }
-.conteiner{
+.container{
   width: 1110px;
   margin: 0 auto;
 }
@@ -53,13 +53,12 @@ body {
     }
 
 .navigation-site-list{
-  float: left;
+    float: left;
     font-size: 14px;
-    float: right;
     margin-right: 33px;
    }
   
-  .navigation-site-list li:not(:last-child) {
+ .navigation-site-list li:not(:last-child) {
     margin-right: 33px;}
 
 .navigation-site-link{ 
@@ -77,7 +76,6 @@ body {
     color:#1abc9c;
   }
    
- 
 .slider{
   background-image:linear-gradient(rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../img/slider/slider.png);
   background-repeat: no-repeat;
@@ -87,7 +85,6 @@ body {
   background-size: cover;
   background-position:center;
   position: relative;
-  width: 1110px;
   margin: 0 auto;
 }
 
@@ -159,14 +156,18 @@ body {
   font-size: 24px;
   font-weight: 300; 
 }
+.collection{
+padding-top: 101px;
+padding-bottom: 101px;
+background-color: #e9f0fd;
+}
 
-.conteiner{
-    width: 1110px;
-    margin: 0 auto;
-    background-color: #e9f0fd;
-  }
+.container{
+width: 1110px;
+margin: 0 auto;
+}
   
-h2 {
+.sc-collection-text{
  font-weight:700;
  font-size: 37px;
  text-align: center;
@@ -174,7 +175,7 @@ h2 {
  color:#515151;
  margin: 0;
 }
-h2::after{
+.sc-collection-text::after{
   content: "";
   display: block;
   width: 165px;
@@ -182,12 +183,9 @@ h2::after{
   background-color: #1abc9c;
   margin:0 auto;
   margin-top:30px;
+  margin-bottom: 82px;
   }
 
-  .sc-collection {
-    padding-top: 50px;
-    padding-bottom: 50px;} 
- 
   .sc-collection-wrp{
     position: relative;
     display:block;
@@ -205,8 +203,6 @@ h2::after{
    .sc-collection-list:nth-child(4n) {
     margin-right: 0px;}
 
- 
-   
    .sc-collection-photo {
      height: 282px;
      width: 255px;
@@ -221,32 +217,31 @@ h2::after{
    }
 
    .card-text {
-     display: block;
+     float: left;
      color: #ffffff;
-     width: 190px; 
+     width: 192px; 
      height: 40px;
      font-family: "Roboto", sans-serif;
-     font-size: 14px;
+     font-size: 18px;
      font-weight: 700;
-     text-align: center;
      text-transform: uppercase;
      background-color: #323232;
-     line-height: 14px; 
+     line-height: 40px;
+     text-align: center;
    }
  
 .card-price {
-   display: block;
-   color: #ffffff;
-   font-size: 18px;
-   width: 63px;
-   height: 40px;
-   background-color: #8c8c8c;
-   margin: 0;
-   line-height: 40px;
-   text-align: center;
-   font-family: "Roboto";
-   font-weight: 700;
-   }
+  float: right;
+  color: #ffffff;
+  font-size: 18px;
+  width: 63px;
+  height: 40px;
+  background-color: #8c8c8c;
+  margin: 0;
+  line-height: 40px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;}
 
    .sc-collection-info:hover .card-text {
     background: #1abc9c;
@@ -256,24 +251,33 @@ h2::after{
     }
 
   .sc-collection-overlay {
-    position: absolute;
+    position: relative;
     width: 235px;
     height: 263px;
-    top: 0;
     left: 0;
     background-color:#737373;
     opacity: 0;
     border: 10px solid rgba(255,255,255,0.9);
     background-color: rgba(0,0,0,0.549);
+    top:0;
+    
   }
   .sc-collection-wrp:hover .sc-collection-overlay{
       opacity: 1;
   }
 
-  .overlay-icon {
-    display: block;
-  
+  .sc-collection-overlay-list{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
   }
+
+  .overlay-icon{
+    display: block;
+  }
+
   .overlay-icon-heard{
     width: 50px;
     height: 50px;
@@ -337,23 +341,21 @@ h2::after{
     float: left;
     padding-top: 0px;
     text-align: center;
+    background-position: left;
   }
 
   .icon_name {
     float: right;
     font-size: 14px; 
+    text-align: center;
   }
 
   .overlay-icon1-add:hover{
     background-color: #323232;
   }
 
-.footer {
-  height: 90px;
-  }
 
 .footer-wrapper {
-  width: 1110px;
   margin: 0 auto;
   background-color: #323232;
 }
