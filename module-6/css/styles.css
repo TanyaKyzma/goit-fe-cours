@@ -50,8 +50,12 @@ body {
     position: absolute;
     width: 50px;
     border-bottom: 3px solid #f38181;
-    bottom:-38px;
-    left: 573px; 
+   opacity: 0;
+}
+
+.navigation-site-list:hover{
+    opacity: 1;
+    transition: all 200ms linear;
 }
 
 .container{
@@ -179,17 +183,42 @@ body {
   
 }
 
-.icons-list {
+.icon{
     width: 57px;
     height: 57px;
     background-color: #fce38a;
     border: none;
-    background-image: url(../img/icons/facebook.png);
-    background-repeat: no-repeat;
-background-position: center;   
+    margin: 0;
+    padding:0;
 }
 
-.icons-list:hover{
+.listF {
+   
+    background-image: url(../img/icons/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+
+.listT {
+    
+    background-image: url(../img/icons/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.listP{
+    background-image: url(../img/icons/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.listI{
+    background-image: url(../img/icons/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.icon-listF::hover{
     background-color: #95e1d3;
 }
 
