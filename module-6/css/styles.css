@@ -97,7 +97,15 @@ body {
 }
 
 .services-list{
-    display: flex;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.services-item{
+    width: 400px;
+    margin-bottom: 90px;
+    position: relative;
 }
 
 
@@ -107,6 +115,9 @@ body {
     color:#333333;
     font-size: 14px;
     text-transform: uppercase;
+    display: block;
+    margin-left: 30px;
+    padding-left: 30px;
 }
 
 .services-descr {
@@ -115,30 +126,81 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 24px;
-    margin: 0;
+    margin-left: 30px;
+    padding-left: 30px;
 }
 
-.services-ad-img0::after{
-    display:block;
+.img0::before{
     content: " ";
+    display: block;
     width: 30px;
     height: 30px;
     background-image: url(../img/icons/ALARM.png);
     background-size: contain;
     background-position : center;
+    position: absolute;
+    left: 0;
 }
 
+.img1::before{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icons/LINE\ GRAPH.png);
+    background-size: contain;
+    background-position : center;
+    position: absolute;
+    left: 0;
+}
 
+.img2::before{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icons/COMPUTER\ _\ OK.png);
+    background-size: contain;
+    background-position : center;
+    position: absolute;
+    left: 0;   
+}
 
+.img3::before{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icons/BOOK\ 2.png);
+    background-size: contain;
+    background-position : center; 
+    position: absolute;
+    left: 0;  
+}
 
+.img4::before{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icons/HOME.png);
+    background-size: contain;
+    background-position : center; 
+    position: absolute;
+    left: 0;
+}
 
-
-
-
-
-
-
-
+.img5::before{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icons/image6.png);
+    background-size: contain;
+    background-position : center;
+    position: absolute;
+    left: 0;
+} 
 
 .team-text{
     font-size: 24px;
@@ -186,13 +248,35 @@ body {
   
 }
 
+.gr{
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(rgba(238,137,137,0.9), rgba(238,214,135,0.9));
+    position: absolute;
+    top: 0;
+    box-shadow: 10px 10px #95e1d3;
+    transition: 200ms;
+    opacity: 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 223px;
+    position: absolute;
+    top: 206px;
+    right: 79px;
+}
+
 .icon{
     width: 57px;
     height: 57px;
     background-color: #fce38a;
     border: none;
-    margin: 0;
-    padding:0;
+    position: relative;
+    transition: 200ms;
+    opacity: 1;
+    
 }
 
 .listF {
@@ -219,7 +303,7 @@ body {
     background-position: center;   
 }
 
-.icon-listF::hover{
+.icon-list::hover{
     background-color: #95e1d3;
 }
 
@@ -251,7 +335,7 @@ body {
   margin-top:80px;
 }
 
-.form {
+form {
     display: flex;
     justify-content: space-between;
     width: 310px;
