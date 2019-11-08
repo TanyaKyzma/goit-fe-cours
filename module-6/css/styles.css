@@ -118,15 +118,16 @@ body {
     margin: 0;
 }
 
-.services-ad::before{
+.services-ad-img0::after{
     display:block;
     content: " ";
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-image: url(../img/icons/ALARM.png);
     background-size: contain;
-    background-position: center;
+    background-position : center;
 }
+
 
 
 
