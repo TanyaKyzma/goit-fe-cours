@@ -28,7 +28,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 490px;
-
 }
 
 .navigation-site-link{
@@ -54,11 +53,10 @@ body {
     opacity: 0;   
     }
 
-.navigation-site-list a:hover{
-     opacity: 1;
+.navigation-site-list a:hover:after{
+    opacity: 1;
+    transition: all 200ms linear;
     }
-
-
 
 .container{
     margin: 0 auto;
@@ -120,15 +118,17 @@ body {
     margin: 0;
 }
 
-.services-item-ALARM.png::after{
-    display: inline-block;
+.services-ad::before{
+    display:block;
     content: " ";
     width: 30px;
     height: 30px;
-    background: url(../img/icons/ALARM.png);
+    background-color: black;
     background-size: contain;
     background-position: center;
 }
+
+
 
 
 
@@ -195,15 +195,12 @@ body {
 }
 
 .listF {
-   
     background-image: url(../img/icons/facebook.png);
     background-repeat: no-repeat;
     background-position: center;   
 }
 
-
 .listT {
-    
     background-image: url(../img/icons/twitter.png);
     background-repeat: no-repeat;
     background-position: center;   
@@ -214,6 +211,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;  
 }
+
 .listI{
     background-image: url(../img/icons/instagram.png);
     background-repeat: no-repeat;
