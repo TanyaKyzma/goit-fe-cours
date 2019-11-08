@@ -28,6 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 490px;
+
 }
 
 .navigation-site-link{
@@ -37,6 +38,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color:#95e1d3;
+    text-align: center;
 }
 
 .navigation-site-list a:hover {
@@ -44,19 +46,19 @@ body {
     transition: all 200ms linear;
     } 
 
-.navigation-site-list:after{
-    content:'';
+.navigation-site-list a::after{
+    content: '';
     display: block;
-    position: absolute;
-    width: 50px;
     border-bottom: 3px solid #f38181;
-   opacity: 0;
-}
+    width: 50px;
+    opacity: 0;   
+    }
 
-.navigation-site-list:hover{
-    opacity: 1;
-    transition: all 200ms linear;
-}
+.navigation-site-list a:hover{
+     opacity: 1;
+    }
+
+
 
 .container{
     margin: 0 auto;
