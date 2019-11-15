@@ -96,10 +96,10 @@ body {
     content:'';
     display: block;
     position: absolute;
+    left: 573px;
     width: 60px;
     border-bottom: 3px solid #f38181;
     bottom:-38px;
-    left: 573px;
 }
 
 .services-list{
@@ -112,7 +112,7 @@ body {
     width: 350px;
     margin-bottom: 90px;
     position: relative;
-    padding-left: 15px;
+    padding-left: 45px;
 }
 
 
@@ -122,8 +122,7 @@ body {
     color:#333333;
     font-size: 14px;
     text-transform: uppercase;
-    margin-left: 30px;
-    padding-left: 30px;
+
 }
 
 .services-descr {
@@ -132,8 +131,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 24px;
-    margin-left: 30px;
-    padding-left: 30px;
+
 }
 
 .img0::before{
@@ -283,7 +281,6 @@ body {
 .team-item{
  position: relative;
 width: 380px;
-height: 470px;
 margin-bottom: 30px;
 }
 
@@ -302,44 +299,75 @@ margin-bottom: 30px;
     right: 80px;
 }
 
-.icon-list{
+.icons-imageF{
     display: block;
     width: 57px;
     height: 57px;
     background-color: #fce38a;
     border: none;
     position: relative;
-    transition: 200ms;
-    opacity: 1;
-    z-index: 1;
-    
-}
-
-.icon-listF {
     background-image: url(../img/icons/facebook.png);
     background-repeat: no-repeat;
     background-position: center;   
+    transition: 200ms;
+    opacity: 1;   
 }
 
-.icon-listT {
+.icons-imageF:hover{
+    background-color: #95e1d3;
+}
+
+.icons-imageT{
+    display: block;
+    width: 57px;
+    height: 57px;
+    background-color: #fce38a;
+    border: none;
+    position: relative;
     background-image: url(../img/icons/twitter.png);
     background-repeat: no-repeat;
     background-position: center;   
+    transition: 200ms;
+    opacity: 1;  
 }
 
-.icon-listP{
+.icons-imageT:hover{
+    background-color: #95e1d3;
+}
+
+
+.icons-imageP{
+    display: block;
+    width: 57px;
+    height: 57px;
+    background-color: #fce38a;
+    border: none;
+    position: relative;
     background-image: url(../img/icons/pinterest.png);
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center;   
+    transition: 200ms;
+    opacity: 1;  
+}
+.icons-imageP:hover{
+    background-color: #95e1d3;
 }
 
-.icon-listI{
+.icons-imageI{
+    display: block;
+    width: 57px;
+    height: 57px;
+    background-color: #fce38a;
+    border: none;
+    position: relative;
     background-image: url(../img/icons/instagram.png);
     background-repeat: no-repeat;
     background-position: center;   
+    transition: 200ms;
+    opacity: 1;  
 }
 
-.icon-list:hover{
+.icons-imageI:hover{
     background-color: #95e1d3;
 }
 
@@ -413,3 +441,6 @@ form {
     height: 40px;
     text-align: center;
 }
+ .submit:hover{
+     background-color: #f38181;
+ }
