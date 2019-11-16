@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.hdr-info{
+    padding: 44px 0 70px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'WisdomScriptAJ', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.05em;
+    line-height: 41px;
+    color: #fed136;
+    text-decoration: none;
+
+}
+.block-nav{
+    display: flex;
+    width: 485px;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 14px;
+  
+}
+.block-nav-item{
+    width: 90px;
+    text-align: center;
+}
+.block-nav-item a{
+    text-decoration: none;
+    color: #222222;
+}
+.block-nav-item a:hover{
+    color: #fed136;
+}
+
+
+.services{
+    margin-bottom: 122px;
+    padding: 40px 0 20px;
+}
+.services-title{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    letter-spacing:-0.025em;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 10px;
+}
+.services-subtitle{
+    font-family: 'DroidSerif-Italic',serif;
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    letter-spacing: 0;
+    margin: 0 0 74px;
+   
+}
+.services-block{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.services-block-item{
+    width: 274px;
+    text-align: center;
+    position: relative;
+    padding-top: 96px;
+    text-decoration: none;
+}
+.services-title-heiding{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.025em;
+    color: #222222;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+.services-block-item::before{
+    content: '';
+    display: block;
+    width: 69px;
+    height: 69px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+
+} 
+.icon1::before{
+    background-image: url(../img/Icon-Basket.png);
+   
+}
+.icon2::before{
+    background-image: url(../img/Icon-Laptop.png);
+  
+
+}
+.icon3::before{
+    background-image: url(../img/Icon-Locked.png);
+
+
+}
+.services-text{
+    font-family: 'RobotoSlab-Regular', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: -0.025em;
+    margin: 0;
+}
